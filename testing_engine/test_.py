@@ -3,7 +3,7 @@ import json
 from validation import validate_json, validate_questions, validate_relevant_links
 from gemini import evaluate_question_quality, evaluate_relevance  # Import your functions
 
-filepath = 'outputs/output.json'
+filepath = 'outputs/tem_outputs/output.json'
 
 def load_data(file_path):
     with open(file_path, 'r') as file:

@@ -97,4 +97,4 @@ website_url = input("Enter URL : ")
 #     raise ValueError("No URL provided. Set the WEBSITE_URL environment variable.")
 
 process_website(website_url)
-print("Process Completed, Check the Output Folder ✅✅")
+print("Process Completed, Check the output.json file in outputs Folder ✅✅")
