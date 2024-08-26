@@ -3,6 +3,8 @@
 
 Welcome to the **OOSC LevelUp** repository! This project is designed to help you level up your Object-Oriented Software Construction (OOSC) skills. It includes several coding exercises, tutorials, and resources to enhance your understanding of OOSC principles.
 
+__Please refer to `notebook.ipynb` usign Jupyter notebook for better understanding__
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
@@ -51,6 +53,18 @@ Before you get started, ensure you have the following installed on your machine:
     ```bash
     python que_generation/main.py
     ```
+
+6. We would recommend you to go through Jupyter Notebook:
+
+    - If using `venv`, please do `pip install notebook`
+    
+    ```bash
+    jupyter notebook
+
+    # open the `notebook.ipynb` with jupyter
+    ```
+
+
 
 
 
