@@ -3,11 +3,13 @@
 
 Welcome to the **OOSC LevelUp** repository! This project is designed to help you level up your Object-Oriented Software Construction (OOSC) skills. It includes several coding exercises, tutorials, and resources to enhance your understanding of OOSC principles.
 
+![Overview Figure](overview.png)
+
 __Please refer to `notebook.ipynb` usign Jupyter notebook for better understanding__
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
+- [Techstack](#techstack)
 - [Installation](#installation)
 - [Using Docker](#using-docker)
 - [Running the Project](#running-the-project)
@@ -15,13 +17,14 @@ __Please refer to `notebook.ipynb` usign Jupyter notebook for better understandi
 - [Contributing](#contributing)
 - [License](#license)
 
-## Prerequisites
+## Techstack
 
 Before you get started, ensure you have the following installed on your machine:
 
 - [Git](https://git-scm.com/)
 - [Docker](https://www.docker.com/)
 - Python 3.8 or later (if not using Docker)
+- Gemini API 1.5 Flash
 
 ## Installation and Usage
 
@@ -32,7 +35,7 @@ Before you get started, ensure you have the following installed on your machine:
     cd oosc_levelup
     ```
 
-2. Rename the `.env.sample` -> `.env` in the root folder
+2. Rename the `envsample` -> `.env` in the root folder
 
 
 3. Create a python venv and run it (for linux based system):
@@ -57,7 +60,7 @@ Before you get started, ensure you have the following installed on your machine:
 6. We would recommend you to go through Jupyter Notebook:
 
     - If using `venv`, please do `pip install notebook`
-    
+
     ```bash
     jupyter notebook
 
